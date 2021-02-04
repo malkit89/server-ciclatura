@@ -2,8 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const fileDati = require('./ciclatura/index');
+const path = require('path')
 
-let publicPath = __dirname + "\\..\\public\\";
+let publicPath = path.join(__dirname,"..","public");
 // console.log(publicPath);
 
 app.use(cors())
