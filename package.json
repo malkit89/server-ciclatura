@@ -1,0 +1,15 @@
+{
+  "name": "monitor-ciclatura",
+  "version": "1.0.0",
+  "description": "Monitorare lo stato delle macchine di ciclatura da remoto",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Malkit Sandhu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6"
+  }
+}
